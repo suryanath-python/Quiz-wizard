@@ -6,7 +6,7 @@ con = msql.connect(
     passwd = "admin",
     database = "test"
 )
-print(con.is_connected())
+
 cur = con.cursor()
 
 #Creates quiz tables
