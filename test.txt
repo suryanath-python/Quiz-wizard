@@ -1,0 +1,59 @@
+create table calculus(
+Q_ID INT PRIMARY KEY,
+Questions VARCHAR(40), 
+A VARCHAR(25),
+B VARCHAR(25),
+C VARCHAR(25),
+D VARCHAR(25),
+ANSWER CHAR(1)
+);
+
+
+INSERT INTO calculus 
+VALUES (1,'Footballer','Ronaldo','Kohli','Malinga','Suiii','A');
+
+create table algebra(
+Q_ID INT PRIMARY KEY,
+Questions VARCHAR(40), 
+A VARCHAR(25),
+B VARCHAR(25),
+C VARCHAR(25),
+D VARCHAR(25),
+ANSWER CHAR(1)
+);
+
+
+create table geometry(
+Q_ID INT PRIMARY KEY,
+Questions VARCHAR(40), 
+A VARCHAR(25),
+B VARCHAR(25),
+C VARCHAR(25),
+D VARCHAR(25),
+ANSWER CHAR(1)
+);
+
+INSERT INTO calculus 
+VALUES (2,'Cricketer','Ronaldo','Kohli','Sharukh khan','Suiii','A');
+
+
+create table scores(
+NAME VARCHAR(40),
+SCORE INT 
+);
+
+INSERT INTO scores
+VALUES
+('JaLion',1000),
+('Rehan',100);
+
+INSERT INTO scores
+VALUES
+('Nandu',10000),
+('Surya',50);
+
+ INSERT INTO Quiz1 
+ VALUES (1, 'If a + b = 12 and a - b = 4, what is the value of a?', 'A) 8', 'B) 6', 'C) 10', 'D) 5', 'A'),
+ VALUES (2, 'Solve the equation: 3x^2 - 5x + 2 = 0. What are the roots of the equation?', 'A) x = 1, x = 2', 'B) x = 2, x = 3', 'C) x = 1/3, x = 2/3', 'D) x = -1, x = -2/3', 'A'),
+ (3, 'What is the value of sin(60 degrees)?', 'A) 1/2', 'B) √2/2', 'C) √3/2', 'D) 3/2', 'C');
+ ;
