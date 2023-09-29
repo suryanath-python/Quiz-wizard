@@ -1,0 +1,39 @@
+create table quiz1(Q_ID INT PRIMARY KEY,Questions varchar(60),A VARCHAR(30),B VARCHAR(30),c VARCHAR(30),D VARCHAR(30),ANSWER VARCHAR(5));
+INSERT INTO QUIZ1 VALUES(1,"What is the SI unit of electric current?","Volt","Ampere","Ohm","Coulomb","B");
+INSERT INTO QUIZ1 VALUES(2,"Which law of thermodynamics states that energy cannot be created or destroyed, only transformed?",
+"Zeroth Law","First Law","Third Law","Fourth Law","B");
+INSERT INTO QUIZ1 VALUES(3,"unit of capacitance??","Farad","Ampere","Ohm","Coulomb","A");
+INSERT INTO QUIZ1 VALUES(4,"Which of the following is a fundamental force of nature?",
+"Frictional Force","Gravitational Force","Tension Force"," Electrostatic Force","B");
+INSERT INTO QUIZ1 VALUES(5,"Which of the following is a vector quantity?","Speed","Mass"," Distance","Charge","A");
+
+
+create table quiz2(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ2 VALUES(1,"What is the term for the phenomenon where a particle can exist in multiple states simultaneously until observed?",
+"Superposition","Entanglement","Diffraction","Complementarity","A");
+INSERT INTO QUIZ2 VALUES(2,"What is the term for the process by which an atomic nucleus splits into two or more smaller nuclei, releasing a large amount of energy?",
+"Fusion","Fission"," Annihilation","Decay","B");
+INSERT INTO QUIZ2 VALUES(3,"Which of the following particles is an example of a hadron?",
+"Electron","Neutron"," Positron","Proton","D");
+INSERT INTO QUIZ2 VALUES(4," What is the speed of light in a vacuum, approximately?",
+"3.00 x 10^8 miles per hour","30,000 kilometers per second"," 299,792,458 meters per second"," 3,000,000 meters per second","B");
+INSERT INTO QUIZ2 VALUES(5," According to the theory of general relativity, what does gravity result from?",
+"The exchange of virtual gravitons","The expansion of the universe","The curvature of spacetime caused by mass","The attraction between positive and negative charges","C");
+
+
+create table quiz3(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ3 VALUES(1,"What is the formula for calculating electric power?","P=IV","P=IRT","P=IT","P=RT","A"),
+(2,"According to the law of conservation of momentum, what happens to the total momentum of a closed system?",
+"It decreases","It remains constant","It increases","It depends on external forces","A"),
+(3,"Which of the following colors of light has the shortest wavelength?",
+"red","blue","yellow","violet","D"),
+(4,"Which law states that pressure and volume of a gas are inversely proportional at constant temperature?",
+"Boyle's Law","Charles's Law","Gay-Lussac's Law","Avogadro's Law","A"),
+
+
+
+
+
+
+
+
