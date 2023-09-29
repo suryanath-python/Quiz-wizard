@@ -1,0 +1,23 @@
+CREATE TABLE QUIZ1(Q_ID INT PRIMARY KEY,Questions varchar(60),A VARCHAR(30),B VARCHAR(30),c VARCHAR(30),D VARCHAR(30),ANSWER VARCHAR(5));
+INSERT INTO QUIZ1 VALUES
+(1, 'Find the value of (1 - cos²θ) / (sin²θ).', 'A) 1', 'B) 2', 'C) 1/2', 'D) 0', 'C'),
+(2, 'Calculate the value of ∫(0 to π/4) sec²x dx.', 'A) π', 'B) π/4', 'C) π/2', 'D) 1', 'B'),
+(3, 'Solve the equation: 2sin(2θ) = √3 cosθ.', 'A) θ = π/6', 'B) θ = π/3', 'C) θ = 5π/6', 'D) θ = 2π/3', 'A'),
+(4, 'Evaluate the limit: lim (x->0) (e^(2x) - 1) / (x - sinx).', 'A) 0', 'B) 1', 'C) 2', 'D) ∞', 'A'),
+(5, 'Find the complex roots of the equation: x² + 4x + 5 = 0.', 'A) -2 + i, -2 - i', 'B) 2 + i, 2 - i', 'C) -1 + i, -1 - i', 'D) 1 + i, 1 - i', 'A');
+
+CREATE TABLE QUIZ2(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ2 VALUES
+(1, 'Calculate the derivative of y = log₂(x² + 1).', 'A) (2x) / (x² + 1)', 'B) (x) / (x² + 1)', 'C) (1) / (x² + 1)', 'D) (2x) / (x² + 2)', 'A'),
+(2, 'Find the equation of the tangent line to the curve y = 3x² - 2x + 1 at the point (1, 2).', 'A) y = 3x - 1', 'B) y = 4x - 2', 'C) y = 5x - 3', 'D) y = 2x + 1', 'B'),
+(3, 'Evaluate the integral: ∫(0 to π/3) sec²(3x) dx.', 'A) π/3', 'B) π', 'C) 2π/3', 'D) 1', 'A'),
+(4, 'Solve the system of linear equations: 2x + y - z = 1, x - 2y + z = -2, 3x - 4y - 3z = 0.', 'A) x = 1, y = 0, z = -1', 'B) x = 0, y = -1, z = 0', 'C) x = -1, y = 1, z = -2', 'D) x = 2, y = -1, z = 1', 'A'),
+(5, 'Find the value of cot(60°) + sec(45°).', 'A) √3', 'B) √2', 'C) 2√3', 'D) 1', 'B');
+
+CREATE TABLE QUIZ3(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ3 VALUES
+(1, 'Determine the value of ∫(0 to 1) x³√(1 - x²) dx.', 'A) π/32', 'B) π/16', 'C) π/64', 'D) π/128', 'B'),
+(2, 'Find the solution to the differential equation: (dy/dx) + 2y = 4x, where y(0) = 1.', 'A) y(x) = 2x + 1', 'B) y(x) = 2x - 1', 'C) y(x) = 2x + 3', 'D) y(x) = 2x - 3', 'A'),
+(3, 'Calculate the limit: lim (x->0) [(1 + 3x)⁻¹ - (1 - 3x)⁻¹] / (6x).', 'A) 1/18', 'B) 1/36', 'C) 1/12', 'D) 1/6', 'A'),
+(4, 'Determine the radius of convergence of the power series ∑(n=0 to ∞) (x^n / n²).', 'A) 0', 'B) 1', 'C) ∞', 'D) 2', 'B'),
+(5, 'Find the matrix product of A = | 2  1 | and B = | 3 |.', 'A) | 2  3 |', 'B) | 8 |', 'C) | 5  8 |', 'D) | 2 |', 'C');
