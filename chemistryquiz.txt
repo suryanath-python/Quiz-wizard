@@ -1,0 +1,23 @@
+CREATE TABLE QUIZ1(Q_ID INT PRIMARY KEY,Questions varchar(60),A VARCHAR(30),B VARCHAR(30),c VARCHAR(30),D VARCHAR(30),ANSWER VARCHAR(5));
+INSERT INTO QUIZ1 VALUES
+(1, 'What is the formula for calcium phosphate?', 'A) CaPO3', 'B) Ca2PO4', 'C) Ca3(PO4)2', 'D) Ca2(PO3)2', 'C'),
+(2, 'Which gas is produced during the electrolysis of water?', 'A) Oxygen', 'B) Hydrogen', 'C) Chlorine', 'D) Carbon dioxide', 'B'),
+(3, 'What is the chemical formula of acetic acid?', 'A) CH4', 'B) C2H6O', 'C) C3H8O2', 'D) CH3COOH', 'D'),
+(4, 'Which element has the highest electronegativity?', 'A) Sodium', 'B) Oxygen', 'C) Fluorine', 'D) Potassium', 'C'),
+(5, 'What is the chemical symbol for lead?', 'A) P', 'B) Le', 'C) Pb', 'D) Ld', 'C');
+
+CREATE TABLE QUIZ2(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ2 VALUES
+(1, 'What is the atomic number of uranium?', 'A) 55', 'B) 92', 'C) 118', 'D) 137', 'B'),
+(2, 'Which gas is known as laughing gas?', 'A) Oxygen', 'B) Nitrous oxide', 'C) Helium', 'D) Methane', 'B'),
+(3, 'What is the chemical formula of methane?', 'A) CH2', 'B) CH4', 'C) C2H4', 'D) CO2', 'B'),
+(4, 'Which of the following is a noble gas?', 'A) Neon', 'B) Sodium', 'C) Sulfur', 'D) Silicon', 'A'),
+(5, 'What is the pH of a neutral solution?', 'A) 0', 'B) 5', 'C) 7', 'D) 14', 'C');
+
+CREATE TABLE QUIZ3(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ3 VALUES
+(1, 'What is the molecular formula of glucose?', 'A) C6H6', 'B) C6H12O6', 'C) C12H22O11', 'D) CO2', 'B'),
+(2, 'Which element is a halogen?', 'A) Hydrogen', 'B) Helium', 'C) Fluorine', 'D) Iron', 'C'),
+(3, 'What is the chemical formula of sulfuric acid?', 'A) H2SO3', 'B) H2SO4', 'C) HCl', 'D) HNO3', 'B'),
+(4, 'How many valence electrons does carbon have?', 'A) 2', 'B) 4', 'C) 6', 'D) 8', 'B'),
+(5, 'Which gas is responsible for the greenhouse effect?', 'A) Oxygen', 'B) Carbon dioxide', 'C) Nitrogen', 'D) Hydrogen', 'B');
