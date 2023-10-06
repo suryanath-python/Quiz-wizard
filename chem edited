@@ -1,0 +1,174 @@
+-- Table quiz1
+CREATE TABLE quiz1(
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO quiz1 VALUES(
+    1,
+    'What is the SI unit of electric current?',
+    'A) Volt',
+    'B) Ampere',
+    'C) Ohm',
+    'D) Coulomb',
+    'B'
+);
+
+INSERT INTO quiz1 VALUES(
+    2,
+    'Which law of thermodynamics states that energy cannot be created or destroyed, only transformed?',
+    'A) Zeroth Law',
+    'B) First Law',
+    'C) Third Law',
+    'D) Fourth Law',
+    'B'
+);
+
+INSERT INTO quiz1 VALUES(
+    3,
+    'Unit of capacitance??',
+    'A) Farad',
+    'B) Ampere',
+    'C) Ohm',
+    'D) Coulomb',
+    'A'
+);
+
+INSERT INTO quiz1 VALUES(
+    4,
+    'Which of the following is a fundamental force of nature?',
+    'A) Frictional Force',
+    'B) Gravitational Force',
+    'C) Tension Force',
+    'D) Electrostatic Force',
+    'B'
+);
+
+INSERT INTO quiz1 VALUES(
+    5,
+    'Which of the following is a vector quantity?',
+    'A) Speed',
+    'B) Mass',
+    'C) Distance',
+    'D) Charge',
+    'A'
+);
+
+
+-- Table quiz2
+CREATE TABLE quiz2(
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO quiz2 VALUES(
+    1,
+    'What is the term for the phenomenon where a particle can exist in multiple states simultaneously until observed?',
+    'A) Superposition',
+    'B) Entanglement',
+    'C) Diffraction',
+    'D) Complementarity',
+    'A'
+);
+
+INSERT INTO quiz2 VALUES(
+    2,
+    'What is the term for the process by which an atomic nucleus splits into two or more smaller nuclei, releasing a large amount of energy?',
+    'A) Fusion',
+    'B) Fission',
+    'C) Annihilation',
+    'D) Decay',
+    'B'
+);
+
+INSERT INTO quiz2 VALUES(
+    3,
+    'Which of the following particles is an example of a hadron?',
+    'A) Electron',
+    'B) Neutron',
+    'C) Positron',
+    'D) Proton',
+    'D'
+);
+
+INSERT INTO quiz2 VALUES(
+    4,
+    'What is the speed of light in a vacuum, approximately?',
+    'A) 3.00 x 10^8 miles per hour',
+    'B) 30,000 kilometers per second',
+    'C) 299,792,458 meters per second',
+    'D) 3,000,000 meters per second',
+    'B'
+);
+
+INSERT INTO quiz2 VALUES(
+    5,
+    'According to the theory of general relativity, what does gravity result from?',
+    'A) The exchange of virtual gravitons',
+    'B) The expansion of the universe',
+    'C) The curvature of spacetime caused by mass',
+    'D) The attraction between positive and negative charges',
+    'C'
+);
+
+
+-- Table quiz3
+CREATE TABLE quiz3(
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO quiz3 VALUES(
+    1,
+    'What is the formula for calculating electric power?',
+    'A) P=IV',
+    'B) P=IRT',
+    'C) P=IT',
+    'D) P=RT',
+    'A'
+);
+
+INSERT INTO quiz3 VALUES(
+    2,
+    'According to the law of conservation of momentum, what happens to the total momentum of a closed system?',
+    'A) It decreases',
+    'B) It remains constant',
+    'C) It increases',
+    'D) It depends on external forces',
+    'A'
+);
+
+INSERT INTO quiz3 VALUES(
+    3,
+    'Which of the following colors of light has the shortest wavelength?',
+    'A) Red',
+    'B) Blue',
+    'C) Yellow',
+    'D) Violet',
+    'D'
+);
+
+INSERT INTO quiz3 VALUES(
+    4,
+    'Which law states that pressure and volume of a gas are inversely proportional at constant temperature?',
+    'A) Boyle''s Law',
+    'B) Charles''s Law',
+    'C) Gay-Lussac''s Law',
+    'D) Avogadro''s Law',
+    'A'
+);
