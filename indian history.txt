@@ -1,0 +1,94 @@
+CREATE TABLE QUIZ1 (
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+INSERT INTO QUIZ1 (Q_ID, Questions, A, B, C, D, ANSWER)
+VALUES
+    (1, 'Who was the first Prime Minister of India?', 'A) Mahatma Gandhi', 'B) Jawaharlal Nehru', 'C) Sardar Patel', 'D) Rajendra Prasad', 'B'),
+    (2, 'When did India gain independence from British rule?', 'A) 1942', 'B) 1945', 'C) 1947', 'D) 1950', 'C'),
+    (3, 'Which ancient civilization was the earliest known in the Indian subcontinent?', 'A) Harappan Civilization', 'B) Vedic Civilization', 'C) Maurya Civilization', 'D) Gupta Civilization', 'A'),
+    (4, 'Who led the Dandi March during the Indian independence movement?', 'A) Mahatma Gandhi', 'B) Jawaharlal Nehru', 'C) Sardar Patel', 'D) Subhas Chandra Bose', 'A'),
+    (5, 'Which Mughal emperor built the Taj Mahal?', 'A) Akbar', 'B) Jahangir', 'C) Shah Jahan', 'D) Aurangzeb', 'C');
+
+CREATE TABLE QUIZ2 (
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+INSERT INTO QUIZ2 (Q_ID, Questions, A, B, C, D, ANSWER)
+VALUES
+    (1, 'Who was the founder of the Maurya Empire in ancient India?', 'A) Chandragupta Maurya', 'B) Ashoka', 'C) Bindusara', 'D) Chanakya', 'A'),
+    (2, 'Which Mughal emperor built the Red Fort in Delhi?', 'A) Akbar', 'B) Jahangir', 'C) Shah Jahan', 'D) Aurangzeb', 'C'),
+    (3, 'The Battle of Plassey was fought in which year?', 'A) 1757', 'B) 1761', 'C) 1770', 'D) 1780', 'A'),
+    (4, 'Who wrote the famous book "Discovery of India"?', 'A) Mahatma Gandhi', 'B) Jawaharlal Nehru', 'C) Rabindranath Tagore', 'D) Sardar Patel', 'B'),
+    (5, 'The Quit India Movement was launched in which year?', 'A) 1942', 'B) 1945', 'C) 1947', 'D) 1950', 'A');
+
+CREATE TABLE QUIZ3 (
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO QUIZ3 (Q_ID, Questions, A, B, C, D, ANSWER)
+VALUES
+    (1, 'Who was the first President of India?', 'A) Dr. B.R. Ambedkar', 'B) Jawaharlal Nehru', 'C) Rajendra Prasad', 'D) Indira Gandhi', 'C'),
+    (2, 'The Indian Rebellion of 1857 started from which city?', 'A) Delhi', 'B) Lucknow', 'C) Kolkata', 'D) Kanpur', 'A'),
+    (3, 'Who was known as the "Iron Man of India"?', 'A) Jawaharlal Nehru', 'B) Sardar Vallabhbhai Patel', 'C) Indira Gandhi', 'D) B.R. Ambedkar', 'B'),
+    (4, 'Who was the first woman Prime Minister of India?', 'A) Indira Gandhi', 'B) Sonia Gandhi', 'C) Mayawati', 'D) Mamata Banerjee', 'A'),
+    (5, 'The Chola dynasty was most prominent in which part of India?', 'A) North India', 'B) Central India', 'C) South India', 'D) East India', 'C');
+
+
+CREATE TABLE QUIZ4 (
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO QUIZ4 (Q_ID, Questions, A, B, C, D, ANSWER)
+VALUES
+    (1, 'Who was the first Governor-General of India?', 'A) Lord Mountbatten', 'B) Warren Hastings', 'C) Robert Clive', 'D) Lord Canning', 'B'),
+    (2, 'The Battle of Panipat in 1526 marked the beginning of which dynasty in India?', 'A) Mughal Empire', 'B) Gupta Empire', 'C) Maurya Empire', 'D) Vijayanagara Empire', 'A'),
+    (3, 'Who was the leader of the Non-Cooperation Movement in India?', 'A) Mahatma Gandhi', 'B) Jawaharlal Nehru', 'C) Sardar Vallabhbhai Patel', 'D) Subhas Chandra Bose', 'A'),
+    (4, 'Which British Viceroy is known for the partition of Bengal in 1905?', 'A) Lord Curzon', 'B) Lord Dalhousie', 'C) Lord Cornwallis', 'D) Lord Ripon', 'A'),
+    (5, 'Who was the first Indian woman to become the President of the Indian National Congress?', 'A) Sarojini Naidu', 'B) Indira Gandhi', 'C) Kamala Nehru', 'D) Rajkumari Amrit Kaur', 'A');
+
+
+CREATE TABLE QUIZ5 (
+    Q_ID INT PRIMARY KEY,
+    Questions varchar(200),
+    A VARCHAR(100),
+    B VARCHAR(100),
+    C VARCHAR(100),
+    D VARCHAR(100),
+    ANSWER VARCHAR(5)
+);
+
+INSERT INTO QUIZ5 (Q_ID, Questions, A, B, C, D, ANSWER)
+VALUES
+    (1, 'Who founded the Indian National Army (INA)?', 'A) Subhas Chandra Bose', 'B) Bhagat Singh', 'C) Mahatma Gandhi', 'D) Jawaharlal Nehru', 'A'),
+    (2, 'Who was the first Indian woman to go into space?', 'A) Sunita Williams', 'B) Kalpana Chawla', 'C) Indira Gandhi', 'D) Ritu Karidhal', 'B'),
+    (3, 'Which famous event is associated with the year 1857 in Indian history?', 'A) First War of Independence', 'B) Battle of Plassey', 'C) Quit India Movement', 'D) Jallianwala Bagh Massacre', 'A'),
+    (4, 'Who was the author of "Discovery of India"?', 'A) Rabindranath Tagore', 'B) Jawaharlal Nehru', 'C) Sardar Patel', 'D) Mahatma Gandhi', 'B'),
+    (5, 'Who was the last Mughal emperor of India?', 'A) Aurangzeb', 'B) Bahadur Shah II', 'C) Shah Alam II', 'D) Muhammad Shah', 'B');
+
+
+
+
+

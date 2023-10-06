@@ -1,0 +1,47 @@
+CREATE TABLE QUIZ1(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO quiz1(QuestionID, Question, OptionA, OptionB, OptionC, OptionD, CorrectOption)
+VALUES
+    (1, 'Which is the highest plateau in India?', 'A) Deccan Plateau', 'B) Chota Nagpur Plateau', 'C) Ladakh Plateau', 'D) Malwa Plateau', 'A'),
+    (2, 'Which river is known as the "Sorrow of Bihar"?', 'A) Yamuna', 'B) Ganges', 'C) Brahmaputra', 'D) Kaveri', 'B'),
+    (3, 'Which state is known as the "Land of Forests"?', 'A) Madhya Pradesh', 'B) Uttarakhand', 'C) Assam', 'D) Kerala', 'C'),
+    (4, 'Which is the largest state in India by area?', 'A) Rajasthan', 'B) Madhya Pradesh', 'C) Maharashtra', 'D) Uttar Pradesh', 'A'),
+    (5, 'Which city is known as the "Scotland of India"?', 'A) Shimla', 'B) Ooty', 'C) Gangtok', 'D) Shillong', 'B');
+
+
+CREATE TABLE QUIZ2(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ2(QuestionID, Question, OptionA, OptionB, OptionC, OptionD, CorrectOption)
+VALUES
+    (1, 'What is the highest mountain peak in India?', 'A) Kangchenjunga', 'B) Nanda Devi', 'C) Mount Everest', 'D) K2', 'C'),
+    (2, 'Which river is known as the "Ganga of the South"?', 'A) Krishna', 'B) Godavari', 'C) Cauvery', 'D) Yamuna', 'B'),
+    (3, 'Which state is known as the "Land of Five Rivers"?', 'A) Punjab', 'B) Haryana', 'C) Rajasthan', 'D) Uttar Pradesh', 'A'),
+    (4, 'Which is the largest desert in India?', 'A) Thar Desert', 'B) Rann of Kutch', 'C) Sundarbans', 'D) Kalahari Desert', 'A'),
+    (5, 'Which is the southernmost point of mainland India?', 'A) Kanniyakumari', 'B) Rameswaram', 'C) Kochi', 'D) Mangaluru', 'A');
+
+CREATE TABLE QUIZ3(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ3(QuestionID, Question, OptionA, OptionB, OptionC, OptionD, CorrectOption)
+VALUES
+    (1, 'Which state is known as the "Land of Forests"?', 'A) Madhya Pradesh', 'B) Uttarakhand', 'C) Assam', 'D) Kerala', 'C'),
+    (2, 'Which mountain range separates India from Tibet?', 'A) Himalayas', 'B) Aravalli Range', 'C) Vindhya Range', 'D) Western Ghats', 'A'),
+    (3, 'Which union territory is the largest in terms of area?', 'A) Andaman and Nicobar Islands', 'B) Lakshadweep', 'C) Puducherry', 'D) Daman and Diu', 'A'),
+    (4, 'Which is the longest coastal state in India?', 'A) Goa', 'B) Maharashtra', 'C) Gujarat', 'D) Kerala', 'B'),
+    (5, 'Which city is known as the "City of Lakes"?', 'A) Udaipur', 'B) Kochi', 'C) Bhopal', 'D) Jaipur', 'A);
+
+
+CREATE TABLE QUIZ4(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ4(QuestionID, Question, OptionA, OptionB, OptionC, OptionD, CorrectOption)
+VALUES
+    (1, 'Which is the northernmost state in India?', 'A) Jammu and Kashmir', 'B) Himachal Pradesh', 'C) Punjab', 'D) Uttarakhand', 'A'),
+    (2, 'Which river flows through the Sundarbans delta?', 'A) Ganges', 'B) Brahmaputra', 'C) Yamuna', 'D) Godavari', 'A'),
+    (3, 'Which state is known as the "Land of Temples"?', 'A) Tamil Nadu', 'B) Karnataka', 'C) Odisha', 'D) Andhra Pradesh', 'A'),
+    (4, 'Which is the smallest union territory in India?', 'A) Lakshadweep', 'B) Daman and Diu', 'C) Puducherry', 'D) Chandigarh', 'B'),
+    (5, 'Which Indian state is known as the "Spice Garden of India"?', 'A) Kerala', 'B) Karnataka', 'C) Andhra Pradesh', 'D) Telangana', 'A');
+
+CREATE TABLE QUIZ5(Q_ID INT PRIMARY KEY,Questions varchar(200),A VARCHAR(100),B VARCHAR(100),c VARCHAR(100),D VARCHAR(100),ANSWER VARCHAR(5));
+INSERT INTO QUIZ5 (QuestionID, Question, OptionA, OptionB, OptionC, OptionD, CorrectOption)
+VALUES
+    (1, 'Which is the highest plateau in India?', 'A) Deccan Plateau', 'B) Chota Nagpur Plateau', 'C) Ladakh Plateau', 'D) Malwa Plateau', 'A'),
+    (2, 'Which river is known as the "Sorrow of Bihar"?', 'A) Yamuna', 'B) Ganges', 'C) Brahmaputra', 'D) Kaveri', 'B'),
+    (3, 'Which state is known as the "Land of Forests"?', 'A) Madhya Pradesh', 'B) Uttarakhand', 'C) Assam', 'D) Kerala', 'C'),
+    (4, 'Which is the largest state in India by area?', 'A) Rajasthan', 'B) Madhya Pradesh', 'C) Maharashtra', 'D) Uttar Pradesh', 'A'),
+    (5, 'Which city is known as the "Scotland of India"?', 'A) Shimla', 'B) Ooty', 'C) Gangtok', 'D) Shillong', 'B');
+
